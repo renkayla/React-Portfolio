@@ -3,15 +3,34 @@ import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Resume from './Resume';
-import './Content.css';
 
 function Content({ section }) {
   return (
     <div className="content">
-      {section === 'about' && <AboutMe />}
-      {section === 'portfolio' && <Portfolio />}
-      {section === 'contact' && <Contact />}
-      {section === 'resume' && <Resume />}
+      {section === 'about' && (
+        <div>
+          <h2 className="content-heading">About Me</h2>
+          <AboutMe />
+        </div>
+      )}
+      {section === 'portfolio' && (
+        <div>
+          <h2 className="content-heading">Portfolio</h2>
+          <Portfolio />
+        </div>
+      )}
+      {section === 'contact' && (
+        <div>
+          <h2 className="content-heading">Contact</h2>
+          <Contact />
+        </div>
+      )}
+      {section === 'resume' && (
+        <div>
+          <h2 className="content-heading">Resume</h2>
+          <Resume />
+        </div>
+      )}
     </div>
   );
 }

@@ -7,7 +7,7 @@ import project2Image from '../images/Screenshot 2023-07-18 172536.png';
 function Portfolio() {
   return (
     <section className="portfolio">
-      <h2>Portfolio</h2>
+      <h2 className="portfolio-title">Portfolio</h2>
       <div className="projects">
         <Project
           title="Asteria Application"
