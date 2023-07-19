@@ -3,6 +3,7 @@ import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Resume from './Resume';
+import Project from './Project';
 
 function Content({ section }) {
   return (
