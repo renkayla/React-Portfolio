@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from './Project';
+import './Portfolio.css';
 import project1Image from '../images/Screenshot 2023-07-18 172621.png';
 import project2Image from '../images/Screenshot 2023-07-18 172536.png';
 
