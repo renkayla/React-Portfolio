@@ -1,33 +1,44 @@
 .header {
-    background-color: #DD2D4A;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #fff;
+  background-color: #F49CBB;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.header-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.header-title {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 10px;
   }
-  
-  .header-content {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header-image {
-    flex: 0 0 100px;
-    margin-right: 20px;
-  }
-  
-  .header-image img {
-    width: 100%;
-    border-radius: 50%;
-  }
-  
+
   .header-name {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 20px;
   }
-  
-  .header-job-title {
-    font-size: 18px;
+
+  .header-image {
+    width: 40px;
+    height: 40px;
   }
-  
+
+  .header-title {
+    font-size: 14px;
+  }
+}

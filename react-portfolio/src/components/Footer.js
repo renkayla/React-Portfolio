@@ -7,10 +7,10 @@ function Footer() {
       <p className="footer-text">© {new Date().getFullYear()} Your Name</p>
       <ul className="footer-links">
         <li>
-          <a href="https://github.com/renkayla" className="footer-link">GitHub</a>
+          <a className="footer-link" href="https://github.com/renkayla">GitHub</a>
         </li>
         <li>
-          <a href="https://linkedin.com/in/" className="footer-link">LinkedIn</a>
+          <a className="footer-link" href="https://linkedin.com/in/">LinkedIn</a>
         </li>
         {/* Add other links as needed */}
       </ul>
@@ -19,3 +19,6 @@ function Footer() {
 }
 
 export default Footer;
+
+
+
