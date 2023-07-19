@@ -1,0 +1,33 @@
+.header {
+    background-color: #DD2D4A;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-image {
+    flex: 0 0 100px;
+    margin-right: 20px;
+  }
+  
+  .header-image img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .header-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header-job-title {
+    font-size: 18px;
+  }
+  

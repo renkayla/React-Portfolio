@@ -1,21 +1,24 @@
 import React from 'react';
+import './Resume.css';
 
 function Resume() {
   return (
     <section className="resume">
-      <h2>Resume</h2>
-      <p>Download my resume:</p>
-      <a href="resume.pdf" download>
-        Download Resume
-      </a>
-      <ul>
-        <li>Proficiency 1</li>
-        <li>Proficiency 2</li>
-        {/* Add more proficiencies */}
-      </ul>
+      <div className="resume-link">
+        <a href="#resume-pdf">Download Resume</a>
+      </div>
+      <div className="resume-proficiencies">
+        <h3>Proficiencies</h3>
+        <ul>
+          <li>Proficiency 1</li>
+          <li>Proficiency 2</li>
+          <li>Proficiency 3</li>
+        </ul>
+      </div>
     </section>
   );
 }
 
 export default Resume;
+
 

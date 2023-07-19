@@ -1,0 +1,33 @@
+.resume {
+    background-color: #CBEEF3;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .resume-link {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .resume-proficiencies {
+    margin-top: 30px;
+  }
+  
+  .resume-proficiencies h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .resume-proficiencies ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .resume-proficiencies li {
+    margin-bottom: 5px;
+  }
+  
