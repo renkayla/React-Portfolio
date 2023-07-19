@@ -28,3 +28,10 @@
 .footer-link:hover {
   text-decoration: underline;
 }
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 10px;
+  }
+}

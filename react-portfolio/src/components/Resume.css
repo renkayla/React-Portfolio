@@ -1,33 +1,41 @@
 .resume {
-    background-color: #CBEEF3;
-    padding: 50px;
-    text-align: center;
+  background-color: #CBEEF3;
+  padding: 20px;
+}
+
+.resume-download {
+  margin-bottom: 20px;
+}
+
+.resume-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.resume-list-item {
+  margin-bottom: 10px;
+}
+
+.resume-link {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .resume {
+    padding: 10px;
   }
-  
-  .resume-link {
-    display: block;
-    color: #000;
-    text-decoration: none;
+
+  .resume-download {
     margin-bottom: 10px;
   }
-  
-  .resume-proficiencies {
-    margin-top: 30px;
+
+  .resume-list {
+    padding-left: 10px;
   }
-  
-  .resume-proficiencies h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .resume-proficiencies ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .resume-proficiencies li {
+
+  .resume-list-item {
     margin-bottom: 5px;
   }
-  
+}

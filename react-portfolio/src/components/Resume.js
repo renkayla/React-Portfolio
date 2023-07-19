@@ -4,21 +4,24 @@ import './Resume.css';
 function Resume() {
   return (
     <section className="resume">
-      <div className="resume-link">
-        <a href="#resume-pdf">Download Resume</a>
+      <h2 className="resume-title">Resume</h2>
+      <div className="resume-download">
+        <a className="resume-link" href="/path/to/resume.pdf" target="_blank" rel="noopener noreferrer">
+          Download Resume
+        </a>
       </div>
-      <div className="resume-proficiencies">
-        <h3>Proficiencies</h3>
-        <ul>
-          <li>Proficiency 1</li>
-          <li>Proficiency 2</li>
-          <li>Proficiency 3</li>
-        </ul>
-      </div>
+      <ul className="resume-list">
+        <li className="resume-list-item">
+          Proficiency 1
+        </li>
+        <li className="resume-list-item">
+          Proficiency 2
+        </li>
+        {/* Add more proficiencies as needed */}
+      </ul>
     </section>
   );
 }
 
 export default Resume;
-
 
