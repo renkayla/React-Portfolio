@@ -1,4 +1,29 @@
 import React from 'react';
+import './Footer.css';
+
+function Footer() {
+  return (
+    <footer className="footer">
+      <p className="footer-text">© {new Date().getFullYear()} Your Name</p>
+      <ul className="footer-links">
+        <li>
+          <a className="footer-link" href="https://github.com/renkayla">GitHub</a>
+        </li>
+        <li>
+          <a className="footer-link" href="https://linkedin.com/in/">LinkedIn</a>
+        </li>
+        {/* Add other links as needed */}
+      </ul>
+    </footer>
+  );
+}
+
+export default Footer;
+
+
+
+
+import React from 'react';
 
 function Footer() {
   return (

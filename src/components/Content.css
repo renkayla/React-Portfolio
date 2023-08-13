@@ -1,0 +1,24 @@
+.content {
+    background-color: #F26A8D;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .content-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .content {
+      margin-top: 10px;
+    }
+  }
+  

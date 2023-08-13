@@ -1,0 +1,50 @@
+.project {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+}
+
+.project-link {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .project {
+    padding: 10px;
+  }
+
+  .project-image {
+    max-width: 300px;
+  }
+
+  .project-title {
+    font-size: 16px;
+  }
+}
